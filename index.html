@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Minesweeper</title>
+  </head>
+  <body>
+    <h1>マインスイーパー</h1>
+    <h2>
+      マスの縦横数（正方形）：<input
+        type="text"
+        class="boardWidthNum"
+        value="10"
+      />
+    </h2>
+    <h2>
+      爆弾の密度（マス数に対して）：<input
+        type="text"
+        class="bombDensity"
+        value="20"
+      />%
+    </h2>
+    <button class="startButton" onclick="gameStartClick()">スタート</button>
+    <h2>爆弾の残り：<span class="bombCount"></span>個</h2>
+
+    <table id="table" border="1"></table>
+    <h3></h3>
+    <script src="./main.js"></script>
+  </body>
+</html>

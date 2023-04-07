@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    /* 黒が正常の色 */
+    /* color: #000; */
+    color: gray;
+}
+
+input {
+    width: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    color: red;
+    font-size: 40px;
+}
+
+/* マスを見えないようにするスタイル */
+.hide {
+    background-color: black;
+}
+
+/* 右クリック時：旗を立てたいがとりあえず赤色にしておく */
+.flag {
+    background-color: red;
+}
